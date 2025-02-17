@@ -1,83 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdelrhman Abdelazim | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- باقي الهيد بدون تغيير -->
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="logo">Abdelrhman</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-    </nav>
+    <!-- Bio Section - النسخة المحسنة -->
+    <section id="bio" class="section">
+        <div class="container">
+            <h2><i class="fas fa-user-graduate"></i> Professional Bio</h2>
+            <div class="bio-content">
+                <div class="bio-header">
+                    <img src="profile-placeholder.jpg" alt="Abdelrhman's Photo" class="profile-img">
+                    <div class="bio-text">
+                        <h3>Abdelrhman Mohamed Abdelazim</h3>
+                        <p class="position">B.Sc. Biochemistry Student</p>
+                        <p class="institution">Cairo University</p>
+                    </div>
+                </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Biochemistry Student &<br><span class="highlight">AI Enthusiast</span></h1>
-            
-            <!-- YouTube Video Embed -->
-            <div class="video-container">
-                <iframe 
-                    src="https://www.youtube.com/embed/7ZamQRLwWVk?start=35" 
-                    title="Project Video"
-                    allowfullscreen>
-                </iframe>
+                <div class="professional-summary">
+                    <h4>Technical Profile</h4>
+                    <ul class="expertise-list">
+                        <li><i class="fas fa-certificate"></i> Currently pursuing AI/ML specialization through Google Career Certificates</li>
+                        <li><i class="fas fa-cloud"></i> AWS Cloud Practitioner Essentials (In Progress)</li>
+                        <li><i class="fas fa-flask"></i> Conducted computational analysis of protein structures using Python</li>
+                    </ul>
+
+                    <h4>Academic Highlights</h4>
+                    <div class="academic-grid">
+                        <div class="academic-item">
+                            <i class="fas fa-university"></i>
+                            <h5>Cairo University</h5>
+                            <p>B.Sc. in Biochemistry & Molecular Biology<br>Expected Graduation: 2025</p>
+                        </div>
+                        <div class="academic-item">
+                            <i class="fas fa-trophy"></i>
+                            <h5>Key Achievements</h5>
+                            <ul>
+                                <li>Dean's List: Fall 2022/2023</li>
+                                <li>Bioinformatics Workshop Participant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Bio Section -->
-    <section id="bio" class="section">
-        <div class="container">
-            <h2><i class="fas fa-user-graduate"></i> About Me</h2>
-            <p>19-year-old biochemistry student passionate about AI and cloud computing. Currently exploring:</p>
-            <ul class="skills-list">
-                <li>Machine Learning fundamentals</li>
-                <li>AWS Cloud Architecture</li>
-                <li>Computational Biochemistry</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
+    <!-- Portfolio Section مع الرابط الجديد -->
     <section id="portfolio" class="section">
         <div class="container">
             <h2><i class="fas fa-briefcase"></i> Portfolio</h2>
-            
-            <!-- Project 1 -->
             <div class="project-card">
-                <h3>Phase 2 Team Project</h3>
+                <h3>Phase 2 Team Project: AI in Drug Discovery</h3>
                 <div class="project-links">
-                    <a href="[YOUR_YOUTUBE_LINK]" class="btn">
+                    <a href="https://www.youtube.com/watch?v=7ZamQRLwWVk" class="btn" target="_blank">
                         <i class="fab fa-youtube"></i> Video Presentation
                     </a>
-                    <a href="[YOUR_PDF_LINK]" class="btn">
+                    <a href="https://docs.google.com/presentation/d/1SAY033hlRnPEZKUF4UsaWrP-2EGRHKrX-rE7EttoLV0/edit?usp=drivesdk" 
+                       class="btn" 
+                       target="_blank">
                         <i class="fas fa-file-pdf"></i> Slide Deck (PDF)
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="social-links">
-            <a href="https://github.com/MrAbdelrhman0" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:abdelrahmanabdelazim5@gmail.com">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-        <p>&copy; 2023 Abdelrhman Abdelazim. All rights reserved.</p>
-    </footer>
 </body>
 </html>
